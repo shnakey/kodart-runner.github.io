@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap");
+ * {
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+	 border: 0;
+	 outline: 0;
+	 -webkit-tap-highlight-color: transparent;
+	 text-decoration: none;
+	 color: inherit;
+	 box-sizing: border-box;
+    
+}
+ *:focus {
+	 outline: 0;
+}
+ body {
+	 font-family: "Raleway", sans-serif;
+}
+ .mainNav {
+    width: 100%;
+    height: 120px;
+	 position: absolute;
+	 z-index: 1;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 color: #9197ae;
+	 text-transform: uppercase;
+	 padding: 0 40px;
+     background-color: #353535;
+}
+ @media screen and (max-width: 799px) {
+	 .mainNav {
+		 padding: 0 20px;
+	}
+}
+.kr-logo {
+	width: 50%;
+	padding-top: 5%;
+ }
+ .mainNav__links {
+	 display: flex;
+}
+ @media screen and (max-width: 799px) {
+	 .mainNav__links {
+		 display: none;
+	}
+}
+ .mainNav__link {
+	 letter-spacing: 1px;
+	 font-size: 14px;
+	 margin-left: 20px;
+	 font-weight: 600;
+	 box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+	 transition: all 0.4s ease, transform 0.2s ease;
+	 padding: 2px 4px;
+	 transform: translateY(0px);
+}
+ .mainNav__link:hover {
+	 transform: translateY(-5px);
+	 box-shadow: inset 0px -20px 0px white;
+}
+
+.review {
+    
+
+}
