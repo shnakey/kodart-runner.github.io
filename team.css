@@ -32,19 +32,11 @@ body {
 	background-color: #353535;
 	height: 15%;
 }
-@media screen and (max-width: 799px) {
-    .mainNav {
-        padding: 0 20px;
-   }
-}
+
 .mainNav__links {
     display: flex;
 }
-@media screen and (max-width: 799px) {
-    .mainNav__links {
-        display: none;
-   }
-}
+
 .mainNav__link {
     letter-spacing: 1px;
     font-size: 14px;
@@ -268,4 +260,15 @@ h3 {
 	padding: 2px;
 	background: #fff;
 	margin-right: 2px;
+}
+
+@media screen and (max-width: 799px) {
+    .mainNav {
+        padding: 0 20px;
+   }
+}
+@media screen and (max-width: 799px) {
+    .mainNav__links {
+        display: none;
+   }
 }
